@@ -62,4 +62,8 @@ router.get('/reservation', async(req, res) => {
     res.json(result);
 });
 
+
+router.post('/addreservation', async(req, res) => {
+
+});
 module.exports = router;
