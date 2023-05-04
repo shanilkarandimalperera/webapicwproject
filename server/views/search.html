@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+
+<body>
+
+    <center>
+        <h2>Reservation Search</h2>
+        <form action="/reservation" method="get">
+            <table>
+                <tr>
+                    <td><label for="">Destination</label></td>
+                    <td><input type="text" id="txtdestini" name="txtdestini"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Check in Date</label></td>
+                    <td><input type="date" id="txtcheckin" name="txtcheckin"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Check Out Date</label></td>
+                    <td><input type="date" id="txtcheckout" name="txtcheckout"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Ratings</label></td>
+                    <td><input type="text" id="txtrating" name="txtrating"></td>
+                </tr>
+            </table>
+            <button type="submit">Search</button>
+
+        </form>
+    </center>
+</body>
+
+</html>
